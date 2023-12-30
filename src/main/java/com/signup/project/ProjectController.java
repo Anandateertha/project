@@ -17,4 +17,10 @@ public class ProjectController {
     {
         return projectService.addService();
     }
+
+    @GetMapping("ram")
+    public String ram()
+    {
+        return "Jai Shree Ram";
+    }
 }
