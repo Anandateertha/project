@@ -6,6 +6,6 @@ import org.springframework.stereotype.Service;
 public class ProjectService {
     public String addService()
     {
-        return "User package ";
+        return "CI/CD Successfully implemented!";
     }
 }
