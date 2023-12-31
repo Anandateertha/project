@@ -21,6 +21,6 @@ public class ProjectController {
     @GetMapping("ram")
     public String ram()
     {
-        return "Jai Shree Ram";
+        return "Jai Shree Ram! Yeah!";
     }
-}
+}   
